@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>a training notebook html wireframes - day expanded</title>
+  <!-- Additional CSS to ensure site looks the same on all browsers -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+
+  <link rel="icon" href="images/profileipic.png">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">a training notebook</h1>
+    <button class="burger-menu">burger</button>
+  </header>
+  <main>
+    <div class="day-expanded">
+      <form class="card-container exercise-form" id="exercise-form">
+        <section class="day-expanded-header">
+          <label for="workout-title"></label>
+          <input name="workout-title" type="text" class="day-expanded-title" placeholder="Workout Title" />
+          <div class="time-date-container">
+            <label for="workout-time"></label>
+            <input name="workout-time" type="time" class="day-expanded-time-date" placeholder="time" />
+            <label for="workout-date"></label>
+            <input name="workout-date" type="date" class="day-expanded-time-date" placeholder="date" />
+          </div>
+        </section>
+        <section class="day-expanded-exercises">
+
+        </section>
+        <section class="day-expanded-footer">
+          <button class="day-expanded-back">back</button>
+          <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+        </section>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
