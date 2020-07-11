@@ -234,5 +234,27 @@ ul{
   margin: 10px;
 }
 
+.day-expanded-exercises{
+  width: 100%;
+  padding: 10px;
+}
 
+.exercise-col{
+  width: 23%;
+}
+
+.set-col{
+  width: 11%;
+}
+
+.set-input{
+  width: 100%;
+  font-size: 1rem;
+}
+
+.exercise-input{
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 5px;
+}
 
